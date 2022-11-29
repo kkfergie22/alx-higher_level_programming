@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-myConst = function swap () {
+function swap () {
   myVar = 333;
 };
-module.exports = myConst;
+module.exports = swap();
