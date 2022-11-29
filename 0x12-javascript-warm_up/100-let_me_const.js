@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
 exports.myConst = function swap () {
-  const myVar = 333;
+  myVar = 333;
   return myVar;
 };
