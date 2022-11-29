@@ -3,6 +3,7 @@
 const x = parseInt(process.argv[2]);
 if (isNaN(x)) {
   console.log(1);
+  process.exit(1);
 }
 
 console.log(factorial(x));
