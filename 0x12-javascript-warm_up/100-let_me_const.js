@@ -3,4 +3,4 @@
 myConst = function swap () {
   myVar = 333;
 };
-exports.myConst;
+module.exports = myConst;
