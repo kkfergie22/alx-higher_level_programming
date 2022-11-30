@@ -1,4 +1,4 @@
-#!/usr/bin/Node
+#!/usr/bin/node
 /**
  * This is a script that concatenates 2 files.
  * The first argument is the file path of the first source file
