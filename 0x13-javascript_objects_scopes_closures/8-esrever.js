@@ -1,9 +1,9 @@
 #!/usr/bin/usr/node
 
 exports.esrever = function (list) {
-  const reversed = [];
+  const reversedlist = [];
   for (let i = 0; i < list.length; i++) {
-    reversed.push(list.pop()); // push() adds an element to the end of an array
+    reversedlist.push(list.pop()); // push() adds an element to the end of an array
   }
-  return reversed;
+  return reversedlist;
 };
